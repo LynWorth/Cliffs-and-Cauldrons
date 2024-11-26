@@ -23,11 +23,13 @@ They can also read about upcoming events via the 'Events' area on the home page.
 ## Wireframes
 
 
+
+
 ## Colour Scheme
 
 The colour pallete was created in <a href=https://coolors.co/>Coolors.co</a>
 
-![screenshot of coolers colour pallet] (<assets/readme/Cliffs and Cauldrons.png>)
+![screenshot of coolers colour pallet](<assets/Cliffs and Cauldrons.png>)
 
 
 ## Fonts
