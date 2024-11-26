@@ -25,9 +25,11 @@ SECRET_KEY = 'django-insecure--_1w)e2-8#tb1=4pq0lcxq%gs1j1^8%(f)-=qh1v_4))uzen%k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-lynworth-cliffsandcauld-p0427rkzesd.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-lynworth-cliffsandcauld-p0427rkzesd.ws.codeinstitute-ide.net',
+    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com’]
+# CSRF_TRUSTED_ORIGINS = [https://*.codeinstitute-ide.net', 'https://*.herokuapp.com]
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog', 
 ]
 
 MIDDLEWARE = [
