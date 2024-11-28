@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True 
 
 ALLOWED_HOSTS = ['8000-lynworth-cliffsandcauld-p0427rkzesd.ws.codeinstitute-ide.net',
-    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com']
+    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com','.herokuapp.com']
 
 
 
