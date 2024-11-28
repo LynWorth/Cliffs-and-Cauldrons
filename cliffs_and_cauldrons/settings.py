@@ -28,10 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True 
 
 ALLOWED_HOSTS = ['8000-lynworth-cliffsandcauld-p0427rkzesd.ws.codeinstitute-ide.net',
-    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com']
+    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com','.herokuapp.com']
 
 
 
