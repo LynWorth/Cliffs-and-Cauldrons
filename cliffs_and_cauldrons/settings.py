@@ -14,7 +14,7 @@ from pathlib import Path
 
 import os
 import dj_database_url
-if os.path.isfile("env.py"):
+if os.path.isfile('env.py'):
     import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-lynworth-cliffsandcauld-p0427rkzesd.ws.codeinstitute-ide.net',
-    'cliffs-and-cauldrons-89583f6fadca.herokuapp.com']
+                'cliffs-and-cauldrons-89583f6fadca.herokuapp.com']
 
 
 
